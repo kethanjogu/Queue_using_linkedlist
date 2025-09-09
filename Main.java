@@ -11,6 +11,7 @@ public class Main {
         q.display(); 
 
         System.out.println("Dequeued: " + q.dequeue()); // 10
+         q.clear(); 
         q.display(); 
     }
 }

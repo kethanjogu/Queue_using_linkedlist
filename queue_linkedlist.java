@@ -66,5 +66,11 @@ class QueueLL {
         }
         System.out.println();
     }
+        public void clear() {
+        front = rear = null;
+        size = 0;
+        System.out.println("Queue has been cleared!");
+    }
+
 }
 
