@@ -52,5 +52,19 @@ class QueueLL {
     public int getSize() {
         return size;
     }
+
+      public void display() {
+        if (isEmpty()) {
+            System.out.println("Queue is empty!");
+            return;
+        }
+        Node temp = front;
+        System.out.print("Queue elements: ");
+        while (temp != null) {
+            System.out.print(temp.data + " ");
+            temp = temp.next;
+        }
+        System.out.println();
+    }
 }
 
