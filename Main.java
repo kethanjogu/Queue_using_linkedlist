@@ -7,8 +7,8 @@ public class Main {
         q.enqueue(15);
         q.enqueue(25);
 
-        System.out.println("Front element: " + q.peek()); // 5
+        System.out.println("Front : " + q.peek()); // 5
         System.out.println("Dequeued: " + q.dequeue());  // 5
-        System.out.println("Front element: " + q.peek()); // 15
+        System.out.println("Front : " + q.peek()); // 15
     }
 }
